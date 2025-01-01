@@ -1,78 +1,74 @@
 {
-	"name": "localtimetracker",
-	"displayName": "Local Time Tracker",
-	"description": "Log the time you are coding!",
-	"publisher": "FabricioRojas",
-	"author": {
-		"name": "Fabricio Rojas"
-	},
-	"version": "1.0.6",
-	"engines": {
-		"vscode": "^1.35.0"
-	},
-	"categories": [
-		"Other",
-		"Programming Languages"
-	],
-	"icon": "localtimetracker_icon.png",
-	"galleryBanner": {
-		"color": "#232323",
-		"theme": "dark"
-	},
-	"activationEvents": [
-		"*"
-	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.getTime",
-				"title": "LTT: View stats"
-			},
-			{
-				"command": "extension.initTimer",
-				"title": "LTT: Init Timer"
-			},
-			{
-				"command": "extension.updateStatusTimer",
-				"title": "LTT: Pause/Start timer"
-			},
-			{
-				"command": "extension.clearStatsRestartTimer",
-				"title": "LTT: Clear stats and restart the timer"
-			},
-			{
-				"command": "extension.resetLanguagesColors",
-				"title": "LTT: Reset languagues colors"
-			}
-		]
-	},
-	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"test": "npm run compile && node ./node_modules/vscode/bin/test"
-	},
-	"devDependencies": {
-		"typescript": "^3.3.1",
-		"vscode": "^1.1.28",
-		"tslint": "^5.12.1",
-		"@types/node": "^10.12.21",
-		"@types/mocha": "^2.2.42"
-	},
-	"license": "SEE LICENSE IN LICENSE.txt",
-	"bugs": {
-		"url": "https://github.com/FabricioRojas/LocalTimeTracker/issues",
-		"email": "fabriciorojascuomo@gmail.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/FabricioRojas/LocalTimeTracker.git"
-	},
-	"homepage": "https://github.com/FabricioRojas/LocalTimeTracker/blob/master/README.md",
-	"dependencies": {
-		"https-proxy-agent": "^2.2.3",
-		"minimist": "^1.2.6"
-	}
+  "name": "localtimetracker",
+  "displayName": "Local Time Tracker",
+  "description": "Log the time you are coding!",
+  "publisher": "Fontom's",
+  "author": {
+    "name": "Fontom's"
+  },
+  "version": "1.0.8",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "icon": "localtimetracker_icon.png",
+  "galleryBanner": {
+    "color": "#232323",
+    "theme": "dark"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.getTime",
+        "title": "LTT: View stats"
+      },
+      {
+        "command": "extension.initTimer",
+        "title": "LTT: Init Timer"
+      },
+      {
+        "command": "extension.updateStatusTimer",
+        "title": "LTT: Pause/Start timer"
+      },
+      {
+        "command": "extension.clearStatsRestartTimer",
+        "title": "LTT: Clear stats and restart the timer"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.1",
+    "vscode": "^1.1.28",
+    "tslint": "^5.12.1",
+    "@types/node": "^10.12.21",
+    "@types/mocha": "^2.2.42"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/fontoms/LocalTimeTracker/issues",
+    "email": "tech@fontoms.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fontoms/LocalTimeTracker.git"
+  },
+  "homepage": "https://github.com/fontoms/LocalTimeTracker/blob/master/README.md",
+  "dependencies": {
+    "https-proxy-agent": "^2.2.3",
+    "minimist": "^1.2.6"
+  }
 }

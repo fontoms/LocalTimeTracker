@@ -1,1 +1,24 @@
-{"typescript":"rgba(224,211,6,0.3)","jsonc":"rgba(227,177,128,0.7)","markdown":"rgba(218,65,38,0.8)","ignore":"rgba(115,90,86,0.6)","json":"rgba(31,143,130,0.3)","plaintext":"rgba(120,34,104,0.8)","html":"rgba(97,120,8,0.9)"}
+{
+  "typescript": "rgba(49, 120, 198, 0.8)",
+  "jsonc": "rgba(252, 146, 58, 0.7)",
+  "markdown": "rgba(119, 119, 119, 0.7)",
+  "ignore": "rgba(150, 150, 150, 0.5)",
+  "json": "rgba(252, 146, 58, 0.7)",
+  "plaintext": "rgba(108, 108, 108, 0.6)",
+  "html": "rgba(228, 77, 38, 0.8)",
+  "javascript": "rgba(247, 223, 30, 0.7)",
+  "python": "rgba(55, 118, 171, 0.8)",
+  "properties": "rgba(86, 61, 124, 0.7)",
+  "code-text-binary": "rgba(75, 75, 75, 0.6)",
+  "dockerfile": "rgba(34, 103, 163, 0.8)",
+  "typescriptreact": "rgba(97, 218, 251, 0.8)",
+  "project_nuit-etoilee": "rgba(64, 156, 255, 0.8)",
+  "project_bot-js": "rgba(130, 80, 223, 0.7)",
+  "project_the-mechanic-community": "rgba(46, 204, 113, 0.8)",
+  "project_undefined": "rgba(149, 165, 166, 0.7)",
+  "project_skykoh": "rgba(155, 89, 182, 0.8)",
+  "project_esdock": "rgba(52, 152, 219, 0.8)",
+  "project_project": "rgba(41, 128, 185, 0.8)",
+  "project_dashboard": "rgba(26, 188, 156, 0.8)",
+  "project_christmas-escape-game": "rgba(231, 76, 60, 0.8)"
+}

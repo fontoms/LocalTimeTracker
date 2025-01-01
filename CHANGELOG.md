@@ -1,5 +1,9 @@
 # Change Log
 
+# 1.0.8
+
+- Refactor code to improve performance
+
 # 1.0.6
 
 - Solved minor issue related with "Time by project" section
