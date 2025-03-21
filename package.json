@@ -1,8 +1,8 @@
 {
-  "name": "localtimetracker",
-  "displayName": "Local Time Tracker",
-  "description": "Log the time you are coding!",
-  "publisher": "Fontom's",
+  "name": "localtimetracker-new",
+  "displayName": "New Local Time Tracker",
+  "description": "Track your coding time effortlessly with a real-time timer, detailed stats, and local data storage — no account needed!",
+  "publisher": "fontoms",
   "author": {
     "name": "Fontom's"
   },
